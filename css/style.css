@@ -547,6 +547,160 @@ p {
 
 
 
+#fh5co-menus6 {
+  padding: 3em 0 1em 0;
+  background: #130d08 url(../images/wood_1.png) repeat
+}
+    #fh5co-menus6 .fh5co-type h3 {
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 26px;
+
+    }
+        #fh5co-menus6 .fh5co-type p {
+
+        font-size: 18px;
+         color:rgba(255, 255, 255, 0.7);
+    }
+    #fh5co-menus6 .fh5co-type h3 span {
+        font-size: 24px;
+        color: #fb6e14;
+        padding-left: 10px;
+    }
+@media screen and (max-width: 768px) {
+  #fh5co-menus6 {
+    padding: 2em 0 0 0;
+  }
+}
+#fh5co-menus6 .fh5co-heading .heading {
+  position: relative;
+  padding-top: 30px !important;
+   color: #fff;
+}
+#fh5co-menus6 .fh5co-heading .heading:before, #fh5co-menus6 .fh5co-heading .heading::before {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  content: "";
+  background: url(../images/soupW.png) no-repeat center center;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -32px;
+}
+#fh5co-menus6 .fh5co-heading .sub-heading {
+   color: #fff;
+}
+#fh5co-menus6 .fh5co-food-menu {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-menus6 .fh5co-food-menu {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    clear: none !important;
+  }
+}
+#fh5co-menus6 .fh5co-food-menu h2 {
+  margin-bottom: 50px;
+  font-style: italic;
+  position: relative;
+
+  margin-bottom: 30px;
+    font-style: italic;
+    color: #fff;
+    font-size: 30px;
+    
+    
+}
+#fh5co-menus6 h2 p{
+
+    font-size: 25px;
+    margin-bottom:0;
+    
+}
+#fh5co-menus6 .fh5co-food-menu h2.fh5co-drinks {
+  padding-left: 60px;
+}
+#fh5co-menus6 .fh5co-food-menu h2.fh5co-drinks:before {
+background: url(../images/dressingW.png) no-repeat;
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 58px;
+    top: -15px;
+}
+#fh5co-menus6 .fh5co-food-menu h2.fh5co-dishes {
+  padding-left: 65px;
+}
+#fh5co-menus6 .fh5co-food-menu h2.fh5co-dishes:before {
+  background: url(../images/salad3W.png) no-repeat;
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: 69px;
+  height: 58px;
+}
+#fh5co-menus6 .fh5co-food-menu ul {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-menus6 .fh5co-food-menu ul li {
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  border-bottom: 1px dotted #ccc;
+  display: block;
+  float: left;
+  width: 100%;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc {
+  clear: both;
+  float: left;
+  width: 80%;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc > figure {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-right: 4%;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc > figure img {
+  max-width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc > div {
+  width: 75%;
+  float: left;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc > div p {
+  margin: 0;
+  color:#fff;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 17px;
+  color: #fff;
+}
+#fh5co-menus6 .fh5co-food-menu ul li .fh5co-food-pricing {
+  float: right;
+  width: 20%;
+  text-align: right;
+  font-size: 17px;
+  color: #fb6e14;
+  min-height:34px;
+}
 
 
 
@@ -573,7 +727,7 @@ p {
     }
 @media screen and (max-width: 768px) {
   #fh5co-menus2 {
-    padding: 5em 0 2em 0;
+    padding: 3em 0 2em 0;
   }
 }
 #fh5co-menus2 .fh5co-heading .heading {
@@ -708,6 +862,197 @@ background: url(../images/dressingW.png) no-repeat;
 
 
 
+/*add*/
+#fh5co-menus7 {
+  padding: 0 0 1em 0;
+  background: #130d08 url(../images/wood_1.png) repeat
+}
+    #fh5co-menus7 .fh5co-type h3 {
+        margin-bottom: 15px;
+        color: #fff;
+        font-size: 26px;
+
+    }
+        #fh5co-menus7 .fh5co-type p {
+
+        font-size: 18px;
+         color:rgba(255, 255, 255, 0.7);
+    }
+    #fh5co-menus7 .fh5co-type h3 span {
+        font-size: 24px;
+        color: #fb6e14;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+@media screen and (max-width: 768px) {
+  #fh5co-menus7 {
+    padding: 0 0 2em 0;
+  }
+}
+#fh5co-menus7 .fh5co-heading .heading {
+  position: relative;
+  padding-top: 30px !important;
+   color: #fff;
+   font-size:30px;
+}
+#fh5co-menus7 .fh5co-heading .heading:before, #fh5co-menus7 .fh5co-heading .heading::before {
+  height: 64px;
+  width: 78px;
+  position: absolute;
+  content: "";
+  background: url(../images/addW.png) no-repeat center center;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -32px;
+}
+#fh5co-menus7 .fh5co-heading .sub-heading {
+   color: #fff;
+}
+#fh5co-menus7 .fh5co-food-menu {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-menus7 .fh5co-food-menu {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    clear: none !important;
+  }
+}
+#fh5co-menus7 .fh5co-food-menu h2 {
+  margin-bottom: 50px;
+  font-style: italic;
+  position: relative;
+
+  margin-bottom: 30px;
+    font-style: italic;
+    color: #fff;
+    font-size: 30px;
+    
+    
+}
+#fh5co-menus7 h2 p{
+
+    font-size: 25px;
+    margin-bottom:0;
+    
+}
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-drinks {
+  padding-left: 60px;
+}
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-drinks:before {
+background: url(../images/dressingW.png) no-repeat;
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 58px;
+    top: -15px;
+}
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-dishes {
+  padding-left: 65px;
+}
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-dishes:before {
+  background: url(../images/salad3W.png) no-repeat;
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: 69px;
+  height: 58px;
+}
+#fh5co-menus7 .fh5co-food-menu ul {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-menus7 .fh5co-food-menu ul li {
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  border-bottom: 1px dotted #ccc;
+  display: block;
+  float: left;
+  width: 100%;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc {
+  clear: both;
+  float: left;
+  width: 80%;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc > figure {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-right: 4%;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc > figure img {
+  max-width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc > div {
+  float: left;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc > div p {
+  margin: 0;
+  color:#fff;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 17px;
+  color: #fff;
+}
+#fh5co-menus7 .fh5co-food-menu ul li .fh5co-food-pricing {
+  float: right;
+  width: 20%;
+  text-align: right;
+  font-size: 17px;
+  color: #fb6e14;
+  min-height:34px;
+}
+
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-special {
+  padding-left: 58px;
+}
+#fh5co-menus7 .fh5co-food-menu h2.fh5co-special:before {
+  background: url(../images/addW.png) no-repeat center center;
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 48px;
+  height: 50px;
+}
+#fh5co-menus7 .fh5co-food-menu p
+{
+        font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#fh5co-menus7 h2.fh5co-special span {
+    font-size: 26px;
+    color: #fb6e14;
+    padding-left: 15px;
+}
+
+
+
+
+
+/*pasta*/
+#fh5co-menus3 {
+  padding: 2em 0 1em 0;
+  background: #130d08 url(../images/wood_1.png) repeat
+}
+
+
 /*pasta*/
 #fh5co-menus3 {
   padding: 2em 0 1em 0;
@@ -727,7 +1072,7 @@ background: url(../images/dressingW.png) no-repeat;
     #fh5co-menus3 .fh5co-type h3 span {
         font-size: 24px;
         color: #fb6e14;
-        /*padding-left: 10px;*/
+        padding-left: 10px;
         padding-right: 15px;
     }
 @media screen and (max-width: 768px) {
@@ -756,7 +1101,7 @@ background: url(../images/dressingW.png) no-repeat;
 #fh5co-menus3 .fh5co-food-menu {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus3 .fh5co-food-menu {
@@ -840,7 +1185,6 @@ background: url(../images/dressingW.png) no-repeat;
   margin-bottom: 0;
 }
 #fh5co-menus3 .fh5co-food-menu ul li .fh5co-food-desc > div {
-  width: 75%;
   float: left;
   position: relative;
   font-size: 14px;
@@ -887,6 +1231,8 @@ background: url(../images/dressingW.png) no-repeat;
     color: #fb6e14;
     padding-left: 15px;
 }
+
+
 
 #fh5co-menus4 {
    padding: 2em 0 1em 0;
