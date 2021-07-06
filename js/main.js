@@ -417,6 +417,85 @@
 	    }
 	};
 
+
+	var foodMenus7Animate = function () {
+	    var events = $('#fh5co-menus7');
+	    if (events.length > 0) {
+
+	        events.waypoint(function (direction) {
+
+	            if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+	                setTimeout(function () {
+	                    events.find('.to-animate').each(function (k) {
+	                        var el = $(this);
+
+	                        setTimeout(function () {
+	                            el.addClass('fadeIn animated');
+	                        }, k * 200, 'easeInOutExpo');
+
+	                    });
+	                }, 200);
+
+	                setTimeout(function () {
+	                    events.find('.to-animate-2').each(function (k) {
+	                        var el = $(this);
+
+	                        setTimeout(function () {
+	                            el.addClass('fadeInUp animated');
+	                        }, k * 200, 'easeInOutExpo');
+
+	                    });
+	                }, 500);
+
+	                $(this.element).addClass('animated');
+
+	            }
+	        }, { offset: '80%' });
+
+	    }
+	};
+
+	var foodMenus6Animate = function () {
+	    var events = $('#fh5co-menus6');
+	    if (events.length > 0) {
+
+	        events.waypoint(function (direction) {
+
+	            if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+	                setTimeout(function () {
+	                    events.find('.to-animate').each(function (k) {
+	                        var el = $(this);
+
+	                        setTimeout(function () {
+	                            el.addClass('fadeIn animated');
+	                        }, k * 200, 'easeInOutExpo');
+
+	                    });
+	                }, 200);
+
+	                setTimeout(function () {
+	                    events.find('.to-animate-2').each(function (k) {
+	                        var el = $(this);
+
+	                        setTimeout(function () {
+	                            el.addClass('fadeInUp animated');
+	                        }, k * 200, 'easeInOutExpo');
+
+	                    });
+	                }, 500);
+
+	                $(this.element).addClass('animated');
+
+	            }
+	        }, { offset: '80%' });
+
+	    }
+	};
+
 	var footerAnimate = function() {
 		var footer = $('#fh5co-footer');
 		if ( footer.length > 0 ) {	
@@ -473,12 +552,17 @@
 		goToTop();
 
 
-		// Animations
-		foodMenusAnimate();
+	    // Animations
+		foodMenus6Animate();
 		foodMenus2Animate();
-		foodMenus3Animate();
 		foodMenus4Animate();
+		foodMenusAnimate();
+		
+		
+		foodMenus3Animate();
+		foodMenus7Animate();
 		foodMenus5Animate();
+		
 		footerAnimate();
 
 		
