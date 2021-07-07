@@ -15,6 +15,18 @@
     text-align: center;
 }
 
+.subtitle::before
+{
+    content: "";
+    position: absolute;
+    top: -15px;
+    width: 200px;
+    height: 2px;
+    left: 50%;
+    background: #fb6e14;
+    margin-left: -100px;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
